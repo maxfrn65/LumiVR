@@ -1,5 +1,5 @@
 <template>
-  <div class="hero flex flex-col h-screen bg-[url('assets/hero.png')] bg-cover scale-[100.3%]">
+  <div class="hero flex flex-col h-screen bg-[url('assets/hero.png')] bg-cover">
     <header class="flex items-center gap-6 py-12 px-32">
       <img src="../src/assets/logo.png" class="w-12" alt="Logo de LumiVR">
       <h3 class="text-white">LumiVR</h3>
