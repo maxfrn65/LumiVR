@@ -13,7 +13,7 @@
       </div>
     </div>
   </div>
-  <div class="flex flex-col pt-24 gap-24 bg-black">
+  <div class="flex flex-col pt-24 gap-24 bg-[#000]">
     <div class="flex columns-2 h-96 px-48 gap-8">
       <div class="w-2/3">
         <h1>Donnez vie à votre idée de conception de lumière.</h1>
