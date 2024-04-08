@@ -23,21 +23,7 @@
           <nav class="flex flex-col gap-5 border-2 border-white/10 p-8 rounded-[0.625rem]">
             <h3>Sommaire</h3>
             <div class="flex flex-col gap-3">
-              <div class="flex items-center gap-2.5">
-                <img class="w-6 aspect-auto" src="../src/assets/asterisk.svg" alt=""><h3><a href="#">À propos de LumiVR</a></h3>
-              </div>
-              <div class="flex items-center gap-2.5">
-                <img class="w-6 aspect-auto" src="../src/assets/asterisk.svg" alt=""><h3><a href="#">Les solutions</a></h3>
-              </div>
-              <div class="flex items-center gap-2.5">
-                <img class="w-6 aspect-auto" src="../src/assets/asterisk.svg" alt=""><h3><a href="#">Roadmap</a></h3>
-              </div>
-              <div class="flex items-center gap-2.5">
-                <img class="w-6 aspect-auto" src="../src/assets/asterisk.svg" alt=""><h3><a href="#">Financement</a></h3>
-              </div>
-              <div class="flex items-center gap-2.5">
-                <img class="w-6 aspect-auto" src="../src/assets/asterisk.svg" alt=""><h3><a href="#">L'équipe</a></h3>
-              </div>
+
             </div>
           </nav>
           <div></div>
