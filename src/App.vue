@@ -17,6 +17,37 @@
     <div class="flex columns-2 h-96 px-48 gap-8">
       <div class="w-2/3">
         <h1>Donnez vie à votre idée de conception de lumière.</h1>
+        <div class="bg-white p-3 grid grid-cols-4 grid-rows-2">
+          <div class=" col-span-2 row-span-2">
+            <div class="pe-3 grid grid-cols-2 row-span-2">
+              <div class="col-auto bg-lime-600 gap-5 border-2 border-white/10 me-3 px-5 py-2.5 rounded-[0.625rem]">
+                <Users :size="25"/>
+                <div class="pt-5">
+                  <h4>Collaborez en temps réel.</h4>
+                </div>
+              </div>
+              <div class="col-auto bg-lime-600 gap-5 border-2 border-white/10 px-5 py-2.5 rounded-[0.625rem]">
+                <Theater :size="25"/>
+                <div class="pt-5">
+                  <h4>Vivez votre scène.</h4>
+                </div>
+              </div>
+              <div class="col-span-2 bg-lime-600  gap-5 border-2 mt-3 border-white/10 px-5 py-2.5 rounded-[0.625rem]">
+                <Sparkles :size="25"/>
+                <div class="pt-5">
+                  <h4>Compatible avec Grand MA Lightning, le logiciel leader pour la gestion de votre scène.</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-2 row-span-2">
+            <div class="pe-3 grid grid-cols-2 row-span-2">
+              <div class="bg-lime-600 gap-5 col-span-2 border-2 border-white/10 rounded-[0.625rem]">
+<!--                <img src="../src/assets/img_01.png" alt="lyre" class="img-0">-->
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <aside class="w-1/3">
         <div>
@@ -52,6 +83,8 @@
 </template>
 
 <script setup>
+import { Users, Theater, Sparkles   } from 'lucide-vue-next';
 
 import ButtonM from "@/components/button-m.vue";
 </script>
+
