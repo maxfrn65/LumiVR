@@ -19,15 +19,15 @@
         <section class="flex flex-col gap-12">
           <h1>Donnez vie à votre idée de conception de lumière.</h1>
           <div class="w-full grid grid-cols-4 grid-rows-2 gap-2.5">
-            <div class="aspect-square p-5 flex flex-col gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
+            <div class="aspect-square p-5 flex flex-col gap-5 bg-white/5 border-2 border-white/10 rounded-2xl justify-center">
               <Users size="32"/>
               <h3>Collaborez en temps réel</h3>
             </div>
-            <div class="aspect-square p-5 flex flex-col gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
+            <div class="aspect-square p-5 flex flex-col gap-5 bg-white/5 border-2 border-white/10 rounded-2xl justify-center">
               <Theater size="32"/>
               <h3>Vivez votre scène.</h3>
             </div>
-            <div class="col-span-2 col-start-1 p-5 flex flex-col gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
+            <div class="col-span-2 col-start-1 p-5 flex flex-col gap-5 bg-white/5 border-2 border-white/10 rounded-2xl justify-center">
               <Sparkles size="32"/>
               <h3>Compatible avec Grand MA Lightning, le logiciel leader pour la gestion de votre scène.</h3>
             </div>
