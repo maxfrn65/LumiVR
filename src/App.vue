@@ -14,33 +14,34 @@
     </div>
   </div>
   <div class="flex flex-col pt-24 gap-24 bg-[#000]">
-    <div class="flex columns-2 h-96 px-48 gap-8">
+    <div class="flex columns-2 px-48 gap-8">
       <div class="w-2/3">
         <h1>Donnez vie à votre idée de conception de lumière.</h1>
       </div>
       <aside class="w-1/3">
-        <div>
+        <div class="flex flex-col gap-7">
           <nav class="flex flex-col gap-5 border-2 border-white/10 p-8 rounded-[0.625rem]">
             <h3>Sommaire</h3>
             <div class="flex flex-col gap-3">
-              <div class="flex items-center gap-2.5">
-                <img class="w-6 aspect-auto" src="../src/assets/asterisk.svg" alt=""><h3><a href="#">À propos de LumiVR</a></h3>
-              </div>
-              <div class="flex items-center gap-2.5">
-                <img class="w-6 aspect-auto" src="../src/assets/asterisk.svg" alt=""><h3><a href="#">Les solutions</a></h3>
-              </div>
-              <div class="flex items-center gap-2.5">
-                <img class="w-6 aspect-auto" src="../src/assets/asterisk.svg" alt=""><h3><a href="#">Roadmap</a></h3>
-              </div>
-              <div class="flex items-center gap-2.5">
-                <img class="w-6 aspect-auto" src="../src/assets/asterisk.svg" alt=""><h3><a href="#">Financement</a></h3>
-              </div>
-              <div class="flex items-center gap-2.5">
-                <img class="w-6 aspect-auto" src="../src/assets/asterisk.svg" alt=""><h3><a href="#">L'équipe</a></h3>
-              </div>
+              <AsideNavLink text="À propos de LumiVR" />
+              <AsideNavLink text="Les solutions" />
+              <AsideNavLink text="Roadmap" />
+              <AsideNavLink text="Financement" />
+              <AsideNavLink text="L'équipe" />
             </div>
           </nav>
-          <div></div>
+          <div class="flex flex-col gap-7 border-2 border-white/10 p-8 rounded-[0.625rem]">
+            <h3>Participez au projet</h3>
+            <div class="flex flex-col gap-4">
+              <div class="flex gap-2.5 items-center w-full">
+                <NumberInput /><span>€</span>
+              </div>
+              <div class="flex flex-col gap-4">
+                <ButtonM url="#" text="Faire un don" />
+                <ALink text="Voir les contreparties" />
+              </div>
+            </div>
+          </div>
         </div>
       </aside>
     </div>
@@ -54,4 +55,7 @@
 <script setup>
 
 import ButtonM from "@/components/button-m.vue";
+import AsideNavLink from "@/components/aside-nav-link.vue";
+import NumberInput from "@/components/inputs/number-input.vue";
+import ALink from "@/components/a-link.vue";
 </script>

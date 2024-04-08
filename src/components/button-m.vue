@@ -2,17 +2,19 @@
 defineProps({
   text: {
     type: String,
+    required: true,
     default: 'Button Label'
   },
   url: {
     type: String,
+    required: false,
     default: "#"
   }
 })
 </script>
 
 <template>
-  <a class="px-6 py-4 backdrop-blur-sm bg-white/10 border-[0.5px] border-white/30 rounded-full hover:bg-white/20 transition-all active:bg-white/10" :href="url">{{text}}</a>
+  <a class="px-6 py-4 backdrop-blur-sm bg-white/10 border-[0.5px] border-white/30 rounded-full hover:bg-white/20 transition-all active:bg-white/10 w-fit" :href="url">{{text}}</a>
 </template>
 
 <style>
