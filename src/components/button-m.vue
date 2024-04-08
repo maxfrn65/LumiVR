@@ -2,10 +2,12 @@
 defineProps({
   text: {
     type: String,
+    required: true,
     default: 'Button Label'
   },
   url: {
     type: String,
+    required: true,
     default: "#"
   }
 })
