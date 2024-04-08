@@ -5,10 +5,10 @@
       <h3 class="text-white">LumiVR</h3>
     </header>
     <div class="h-full flex items-center justify-center">
-      <div>
+      <div class="h-fit flex justify-between items-center flex-col gap-10">
         <h1>Gérez vos lumières — vivez la scène.</h1>
-        <img src="../src/assets/asterisk.svg" alt="">
-        <ButtonM text="Découvrez LumiVR" />
+        <img class="h-10" src="../src/assets/asterisk.svg" alt="">
+        <ButtonM class="w-fit" text="Découvrez LumiVR" />
         <h3>Un projet MMI réalisé par Erwan Couturier, Adrien Guillemot et Maxime Fourna.</h3>
       </div>
     </div>
