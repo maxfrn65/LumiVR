@@ -48,6 +48,61 @@
             </div>
           </div>
         </div>
+        <div class="flex flex-col mt-40">
+          <h1>À propos de LumiVR.</h1>
+          <h3 class="text-white text-justify mt-12">Comment concevoir une solution de réalité virtuelle qui offre une immersion  dans un show lumière 3D GrandMA, tout en garantissant une synchronisation entre la simulation virtuelle et la console lumière ?</h3>
+          <p class="mt-7 text-justify">Nous souhaitons introduire une solution innovante et immersive sur le marché de la conception d'éclairage professionnel. L’'utilisation du logiciel répond au secteur du spectacle vivant, des théatres, de l’événementiel, des installations fixes, et d'autres domaines nécessitant une gestion avancée de l'éclairage.</p>
+          <div class="mt-14">
+            <h2>Les solutions.</h2>
+            <div class="pt-8">
+              <div class="flex flex-row items-center">
+                <Asterisk
+                    :size = "60"/>
+                <p class="ps-5 text-justify">Offrir une interface immersive permettant d’ajuster en temps réel les caractéristiques d’un show lumière dans un environnement de réalité virtuel.</p>
+              </div>
+              <div class="my-5">
+                <hr class="w-full">
+              </div>
+              <div class="flex flex-row items-center">
+                <Asterisk
+                    :size = "50"/>
+                <p class="ps-5 text-justify">Offrir une interface immersive permettant d’ajuster en temps réel les caractéristiques d’un show lumière dans un environnement de réalité virtuel.</p>
+              </div>
+              <div class="my-5">
+                <hr class="w-full">
+              </div>
+              <div class="flex flex-row items-center">
+                <Asterisk
+                    :size = "50"/>
+                <p class="ps-5 text-justify">Les éclairagistes peuvent prévisualiser de manière réaliste et détaillée le show qu’ils conçoivent avant même le début de la production, réduisant ainsi les imprévus et optimisant le processus de mise en scène.</p>
+              </div>
+              <div class="my-5">
+                <hr class="w-full">
+              </div>
+              <div class="flex flex-row items-center">
+                <Asterisk
+                    :size = "50"/>
+                <p class="ps-5 text-justify">Permet la collaboration à plusieurs dans même environnement virtuel et de faciliter la gestion du projet grâce au VCS, afin de créer des shows lumière complexes.</p>
+              </div>
+              <div class="my-5">
+                <hr class="w-full">
+              </div>
+              <div class="flex flex-row items-center">
+                <Asterisk
+                    :size = "50"/>
+                <p class="ps-5 text-justify">Compatibilité matérielle étendue à la plupart des consoles de pupitrage (GrandMA Lightning, ChamSys ...).</p>
+              </div>
+              <div class="my-5">
+                <hr class="w-full">
+              </div>
+              <div class="flex flex-row items-center">
+                <Asterisk
+                    :size = "50"/>
+                <p class="ps-5 text-justify">Technologie disponible sur les casques Meta quest 2&3 mais a terme, nous souhaitons prendre en charge la majorité des casques de VR.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <aside class="w-1/3">
         <div class="flex flex-col gap-7">
@@ -84,7 +139,7 @@
 </template>
 
 <script setup>
-import { Users, Theater, Sparkles   } from 'lucide-vue-next';
+import { Users, Theater, Sparkles, Asterisk   } from 'lucide-vue-next';
 
 import ButtonM from "@/components/button-m.vue";
 import AsideNavLink from "@/components/aside-nav-link.vue";
