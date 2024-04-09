@@ -36,7 +36,7 @@
           </div>
         </section>
         
-        <div class="flex flex-col mt-40">
+        <section class="flex flex-col mt-40">
           <h1>À propos de LumiVR.</h1>
           <h3 class="text-white text-justify mt-12">Comment concevoir une solution de réalité virtuelle qui offre une immersion  dans un show lumière 3D GrandMA, tout en garantissant une synchronisation entre la simulation virtuelle et la console lumière ?</h3>
           <p class="mt-7 text-justify">Nous souhaitons introduire une solution innovante et immersive sur le marché de la conception d'éclairage professionnel. L’'utilisation du logiciel répond au secteur du spectacle vivant, des théatres, de l’événementiel, des installations fixes, et d'autres domaines nécessitant une gestion avancée de l'éclairage.</p>
@@ -84,7 +84,289 @@
               </div>
             </div>
           </div>
-        </div>
+          <div class="mt-14 flex flex-col gap-7">
+            <h2>Les abonnements.</h2>
+            <div class="flex items-center justify-center gap-3">
+              <h4>Annuel</h4>
+              <input type="checkbox" class="toggle-pricing toggle toggle-lg [--tglbg:black] bg-white/20 border-white/20" @change="togglePricing" />
+              <h4>Mensuel</h4>
+            </div>
+            <div id="yearly-pricing" class="grid grid-cols-3 gap-5">
+              <div class="rounded-xl border-2 border-white/20 flex flex-col gap-5 px-5 py-7 h-fit shadow-card backdrop-blur-2xl">
+                <div class="text-center flex flex-col gap-4">
+                  <h3 class="text-white">Niveau 1</h3>
+                  <h4>600€/an</h4>
+                </div>
+                <hr>
+                <div class="space-y-2 flex flex-col gap-2.5">
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">15 projets max</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Simulation en temps réel en VR</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Intégration avec les consoles d'éclairage</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Création de cues, de transitions et de séquences d'éclairage complexes pour des spectacles</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Accès à la bibliothèque d’assets de niveau 1</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Accès au support technique</span>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-xl border-2 border-white/20 flex flex-col gap-5 px-5 border-yellow-950 shadow-card-selected backdrop-blur-2xl py-7 h-fit">
+                <div class="text-center flex flex-col gap-4">
+                  <h3 class="text-white">Niveau 2</h3>
+                  <h4>1200€/an</h4>
+                </div>
+                <hr>
+                <div class="space-y-2 flex flex-col gap-2.5">
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Toutes les fonctionalités du niveau 1</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Collaboration et gestion de projet</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Support VCS</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Analyse photométrique</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Outils d'édition IA</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Gestion du poids de l'éclairage sur la structure</span>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-xl border-2 border-white/20 flex flex-col gap-5 px-5 py-7 h-fit shadow-card backdrop-blur-2xl">
+                <div class="text-center flex flex-col gap-4">
+                  <h3 class="text-white">Niveau 3</h3>
+                  <h4>3000€/an</h4>
+                </div>
+                <hr>
+                <div class="space-y-2 flex flex-col gap-2.5">
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Toutes les fonctionalités du niveau 1 et 2</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Simulation physique avancée</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Simulation des interaction lumières/matières</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Conception automatique d’éclairage avec IA</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Synchronisation son/lumière</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Analyse de la conception d’énergie</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="monthly-pricing" class="hidden grid-cols-3 gap-5">
+              <div class="rounded-xl border-2 border-white/20 flex flex-col gap-5 px-5 py-7 h-fit shadow-card backdrop-blur-2xl">
+                <div class="text-center flex flex-col gap-4">
+                  <h3 class="text-white">Niveau 1</h3>
+                  <h4>65€/mois</h4>
+                </div>
+                <hr>
+                <div class="space-y-2 flex flex-col gap-2.5">
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">15 projets max</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Simulation en temps réel en VR</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Intégration avec les consoles d'éclairage</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Création de cues, de transitions et de séquences d'éclairage complexes pour des spectacles</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Accès à la bibliothèque d’assets de niveau 1</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Accès au support technique</span>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-xl border-2 border-white/20 flex flex-col gap-5 px-5 border-yellow-950 shadow-card-selected backdrop-blur-2xl py-7 h-fit">
+                <div class="text-center flex flex-col gap-4">
+                  <h3 class="text-white">Niveau 2</h3>
+                  <h4>125€/mois</h4>
+                </div>
+                <hr>
+                <div class="space-y-2 flex flex-col gap-2.5">
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Toutes les fonctionalités du niveau 1</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Collaboration et gestion de projet</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Support VCS</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Analyse photométrique</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Outils d'édition IA</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Gestion du poids de l'éclairage sur la structure</span>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-xl border-2 border-white/20 flex flex-col gap-5 px-5 py-7 h-fit shadow-card backdrop-blur-2xl">
+                <div class="text-center flex flex-col gap-4">
+                  <h3 class="text-white">Niveau 3</h3>
+                  <h4>300€/mois</h4>
+                </div>
+                <hr>
+                <div class="space-y-2 flex flex-col gap-2.5">
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Toutes les fonctionalités du niveau 1 et 2</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Simulation physique avancée</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Simulation des interaction lumières/matières</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Conception automatique d’éclairage avec IA</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Synchronisation son/lumière</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <div class="w-fit">
+                      <Check size="18"/>
+                    </div>
+                    <span class="text-white/80">Analyse de la conception d’énergie</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       <aside class="w-1/3">
         <div class="flex flex-col gap-7">
@@ -121,10 +403,33 @@
 </template>
 
 <script setup>
-import { Users, Theater, Sparkles, Asterisk   } from 'lucide-vue-next';
+import { Users, Theater, Sparkles, Asterisk, Check } from 'lucide-vue-next';
 import ButtonM from "@/components/button-m.vue";
 import AsideNavLink from "@/components/aside-nav-link.vue";
 import NumberInput from "@/components/inputs/number-input.vue";
 import ALink from "@/components/a-link.vue";
+import {ref, onMounted} from "vue";
+
+const monthlyPricingGrid = ref(null);
+const yearlyPricingGrid = ref(null);
+
+onMounted(() => {
+  // Récupérez les éléments du DOM après le montage du composant
+  monthlyPricingGrid.value = document.getElementById("monthly-pricing");
+  yearlyPricingGrid.value = document.getElementById("yearly-pricing");
+});
+
+const togglePricing = (event) => {
+  const isChecked = event.target.checked;
+
+  if (isChecked) {
+    monthlyPricingGrid.value.style.display = "grid";
+    yearlyPricingGrid.value.style.display = "none";
+  } else {
+    monthlyPricingGrid.value.style.display = "none";
+    yearlyPricingGrid.value.style.display = "grid";
+  }
+}
+
 </script>
 
