@@ -79,7 +79,7 @@
                 <hr class="w-full">
               </div>
               <div class="flex flex-row items-center">
-                <img class="h-7" src="../src/assets/asterisk.svg" alt="">
+                <img class="h-7" src="../src/assets/asterisk.svg" alt="asterick">
                 <p class="ps-5 text-justify">Technologie disponible sur les casques Meta quest 2&3 mais a terme, nous souhaitons prendre en charge la majorité des casques de VR.</p>
               </div>
             </div>
