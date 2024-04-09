@@ -35,7 +35,6 @@
             </div>
           </div>
         </section>
-        
         <section class="flex flex-col mt-40">
           <h1>À propos de LumiVR.</h1>
           <h3 class="text-white text-justify mt-12">Comment concevoir une solution de réalité virtuelle qui offre une immersion  dans un show lumière 3D GrandMA, tout en garantissant une synchronisation entre la simulation virtuelle et la console lumière ?</h3>
@@ -72,7 +71,7 @@
                 <hr class="w-full">
               </div>
               <div class="flex flex-row items-center">
-                <img class="h-7" src="../src/assets/asterisk.svg" alt="">
+                <img class="h-7" src="../src/assets/asterisk.svg" alt="asterick">
                 <p class="ps-5 text-justify">Compatibilité matérielle étendue à la plupart des consoles de pupitrage (GrandMA Lightning, ChamSys ...).</p>
               </div>
               <div class="my-5">
