@@ -9,6 +9,7 @@
         <h1>Gérez vos lumières — vivez la scène.</h1>
         <img class="h-7" src="../src/assets/asterisk.svg" alt="">
         <ButtonM class="w-fit" text="Découvrez LumiVR" />
+
         <h3>Un projet MMI réalisé par Erwan Couturier, Adrien Guillemot et Maxime Fourna.</h3>
       </div>
     </div>
