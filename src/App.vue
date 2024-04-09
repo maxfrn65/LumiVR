@@ -473,7 +473,7 @@
         </section>
       </div>
       <aside class="w-1/3">
-        <div class="flex flex-col gap-7">
+        <div class="sticky top-10 flex flex-col gap-7">
           <nav class="flex flex-col gap-5 border-2 border-white/10 p-8 rounded-[0.625rem]">
             <h3>Sommaire</h3>
             <div class="flex flex-col gap-3">
