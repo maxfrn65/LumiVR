@@ -83,115 +83,9 @@
               </div>
             </div>
           </div>
-        </section>
-        <section class="flex flex-col mt-40">
-          <h1>Le client.</h1>
-          <h3 class="text-white text-justify mt-12">SAS HZ Événementiel est un prestataire technique événementiel spécialisé dans la conception et la réalisation d'événements liée au son/éclairage/structure/vidéo.</h3>
-          <p class="mt-7 text-justify">Situé au cœur de l’aube (Bréviandes-10), son équipe combine passion, créativité et expertise pour donner vie à des prestations uniques. Ainsi, elle propose des solutions clés en main pour des prestations événementielles ou culturelles.</p>
-          <div class="mt-14">
-            <div class="pt-8">
-              <div class="w-full grid grid-cols-4 grid-rows-2 gap-2.5">
-                <div class="aspect-square bg-[url('assets/img_02.jpg')] bg-cover p-5 flex flex-col justify-end items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
-                </div>
-                <div class="aspect-square bg-[url('assets/img_05.jpg')] bg-cover p-5 flex flex-col justify-end items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
-                </div>
-                <div class="col-span-2 col-start-1 p-5 bg-[url('assets/img_03.jpg')] bg-cover flex flex-col justify-end items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
-                </div>
-                <div class="col-span-2 row-span-2 p-5 col-start-3 row-start-1 bg-[url('assets/img_04.jpg')] flex flex-col justify-end items-start bg-cover border-2 border-white/10 rounded-2xl">
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="flex flex-col mt-40">
-          <h1>Roadmap.</h1>
-          <h3 class="text-white text-justify mt-12">La roadmap représente nos objectifs et notre avancement à atteindre pour assurer le bon déroulement du projet.</h3>
-          <div class="mt-14">
-            <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-8">
-              <li>
-                <div class="timeline-middle m-5">
-                  <img src="../src/assets/etoile.svg" alt="">
-                </div>
-                <div class="timeline-start md:text-end">
-                  <h3><time>07/03/2024</time></h3>
-                </div>
-                <div class="timeline-end md:text-start mb-10">
-                  <div class="h-fit p-8 flex justify-center items-start flex-col items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
-                    <img src="../src/assets/vector_1.svg" alt="">
-                    <p>Récupération des XML extraient d’un show GrandMA3. Parsing du XML en C# pour extraire les données. Modification d’un plugin DMX/Artnet Unity.</p>
-                  </div>
-                </div>
-                <hr/>
-              </li>
-              <li>
-                <div class="timeline-middle m-5">
-                  <img src="../src/assets/etoile.svg" alt="">
-                </div>
-                <div class="timeline-end md:text-end">
-                  <h3><time>19/03/2024</time></h3>
-                </div>
-                <div class="timeline-start md:text-start mb-10">
-                  <div class="h-fit p-8 flex justify-center items-start flex-col items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
-                    <img src="../src/assets/vector_2.svg" alt="">
-                    <p>Placement des lumières  sur Unity grâce à des fonctions.
-                      Attribution de la même plage IP à Unity et Grandma 3  pour permettre leur communication directe via le Artnet.</p>
-                  </div>
-                </div>
-                <hr/>
-              </li>
-              <li>
-                <div class="timeline-middle m-5">
-                  <img src="../src/assets/etoile.svg" alt="">
-                </div>
-                <div class="timeline-start md:text-end">
-                  <h3><time>26/03/2024</time></h3>
-                </div>
-                <div class="timeline-end md:text-start mb-10">
-                  <div class="h-fit p-8 flex justify-center items-start flex-col items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
-                    <img src="../src/assets/vector_3.svg" alt="">
-                    <p>Ajout des mouvements simples (tilt/pan) et animations des lumières.</p>
-                  </div>
-                </div>
-                <hr/>
-              </li>
-
-              <li>
-                <div class="timeline-middle m-5">
-                  <img src="../src/assets/etoile.svg" alt="">
-                </div>
-                <div class="timeline-end md:text-end">
-                  <h3><time>05/04/2024</time></h3>
-                </div>
-                <div class="timeline-start md:text-start mb-10">
-                  <div class="h-fit p-8 flex justify-center items-start flex-col items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
-                    <img src="../src/assets/vector_4.svg" alt="">
-                    <p>Ajout des modèles 3D ainsi que du système permettant la synchronisation entre GrandMA 3 et Unity.</p>
-                  </div>
-                </div>
-                <hr/>
-              </li>
-            </ul>
-            <div class="mt-14">
-              <div class="pt-8">
-                <div class="pt-8">
-                  <img src="../src/assets/img_07.png" alt="" class="rounded-2xl">
-                  <div class="p-5">
-                    <p>Rendu d'un parsing de fichier XML sur Unity</p>
-                  </div>
-                </div>
-                <div class="pt-8">
-                  <img src="../src/assets/img_08.jpg" alt="" class="rounded-2xl">
-                  <div class="p-5">
-                    <p>Show 3D sur GrandMA 3</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
           <div class="mt-14 flex flex-col gap-7">
             <h2>Les abonnements.</h2>
-            <div class="flex items-center justify-center gap-3">
+            <div class="flex items-center justify-center gap-3 mt-8">
               <h4>Annuel</h4>
               <input type="checkbox" class="toggle-pricing toggle toggle-lg [--tglbg:black] bg-white/20 border-white/20" @change="togglePricing" />
               <h4>Mensuel</h4>
@@ -471,6 +365,112 @@
               </div>
             </div>
           </div>
+        </section>
+        <section class="flex flex-col mt-40">
+          <h1>Le client.</h1>
+          <h3 class="text-white text-justify mt-12">SAS HZ Événementiel est un prestataire technique événementiel spécialisé dans la conception et la réalisation d'événements liée au son/éclairage/structure/vidéo.</h3>
+          <p class="mt-7 text-justify">Situé au cœur de l’aube (Bréviandes-10), son équipe combine passion, créativité et expertise pour donner vie à des prestations uniques. Ainsi, elle propose des solutions clés en main pour des prestations événementielles ou culturelles.</p>
+          <div class="mt-14">
+            <div class="pt-8">
+              <div class="w-full grid grid-cols-4 grid-rows-2 gap-2.5">
+                <div class="aspect-square bg-[url('assets/img_02.jpg')] bg-cover p-5 flex flex-col justify-end items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
+                </div>
+                <div class="aspect-square bg-[url('assets/img_05.jpg')] bg-cover p-5 flex flex-col justify-end items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
+                </div>
+                <div class="col-span-2 col-start-1 p-5 bg-[url('assets/img_03.jpg')] bg-cover flex flex-col justify-end items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
+                </div>
+                <div class="col-span-2 row-span-2 p-5 col-start-3 row-start-1 bg-[url('assets/img_04.jpg')] flex flex-col justify-end items-start bg-cover border-2 border-white/10 rounded-2xl">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="flex flex-col mt-40">
+          <h1>Roadmap.</h1>
+          <h3 class="text-white text-justify mt-12">La roadmap représente nos objectifs et notre avancement à atteindre pour assurer le bon déroulement du projet.</h3>
+          <div class="mt-8">
+            <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-8">
+              <li>
+                <div class="timeline-middle m-5">
+                  <img src="../src/assets/etoile.svg" alt="">
+                </div>
+                <div class="timeline-start md:text-end">
+                  <h3><time>07/03/2024</time></h3>
+                </div>
+                <div class="timeline-end md:text-start mb-10">
+                  <div class="h-fit p-8 flex justify-center items-start flex-col items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
+                    <img src="../src/assets/vector_1.svg" alt="">
+                    <p>Récupération des XML extraient d’un show GrandMA3. Parsing du XML en C# pour extraire les données. Modification d’un plugin DMX/Artnet Unity.</p>
+                  </div>
+                </div>
+                <hr/>
+              </li>
+              <li>
+                <div class="timeline-middle m-5">
+                  <img src="../src/assets/etoile.svg" alt="">
+                </div>
+                <div class="timeline-end md:text-end">
+                  <h3><time>19/03/2024</time></h3>
+                </div>
+                <div class="timeline-start md:text-start mb-10">
+                  <div class="h-fit p-8 flex justify-center items-start flex-col items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
+                    <img src="../src/assets/vector_2.svg" alt="">
+                    <p>Placement des lumières  sur Unity grâce à des fonctions.
+                      Attribution de la même plage IP à Unity et Grandma 3  pour permettre leur communication directe via le Artnet.</p>
+                  </div>
+                </div>
+                <hr/>
+              </li>
+              <li>
+                <div class="timeline-middle m-5">
+                  <img src="../src/assets/etoile.svg" alt="">
+                </div>
+                <div class="timeline-start md:text-end">
+                  <h3><time>26/03/2024</time></h3>
+                </div>
+                <div class="timeline-end md:text-start mb-10">
+                  <div class="h-fit p-8 flex justify-center items-start flex-col items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
+                    <img src="../src/assets/vector_3.svg" alt="">
+                    <p>Ajout des mouvements simples (tilt/pan) et animations des lumières.</p>
+                  </div>
+                </div>
+                <hr/>
+              </li>
+
+              <li>
+                <div class="timeline-middle m-5">
+                  <img src="../src/assets/etoile.svg" alt="">
+                </div>
+                <div class="timeline-end md:text-end">
+                  <h3><time>05/04/2024</time></h3>
+                </div>
+                <div class="timeline-start md:text-start mb-10">
+                  <div class="h-fit p-8 flex justify-center items-start flex-col items-start gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
+                    <img src="../src/assets/vector_4.svg" alt="">
+                    <p>Ajout des modèles 3D ainsi que du système permettant la synchronisation entre GrandMA 3 et Unity.</p>
+                  </div>
+                </div>
+                <hr/>
+              </li>
+            </ul>
+            <div class="mt-8">
+              <div class="pt-8">
+                <div class="pt-8">
+                  <img src="../src/assets/img_07.png" alt="" class="rounded-2xl">
+                  <div class="p-5">
+                    <p>Rendu d'un parsing de fichier XML sur Unity</p>
+                  </div>
+                </div>
+                <div class="pt-8">
+                  <img src="../src/assets/img_08.jpg" alt="" class="rounded-2xl">
+                  <div class="p-5">
+                    <p>Show 3D sur GrandMA 3</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       <aside class="w-1/3">
         <div class="flex flex-col gap-7">
