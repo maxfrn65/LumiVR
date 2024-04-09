@@ -471,7 +471,6 @@
               </div>
             </div>
           </div>
-        </section>
       </div>
       <aside class="w-1/3">
         <div class="flex flex-col gap-7">
