@@ -24,4 +24,8 @@ a {
   font-weight: 700;
   line-height: normal;
 }
+
+a:hover {
+  cursor: pointer;
+}
 </style>

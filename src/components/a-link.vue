@@ -7,7 +7,6 @@ defineProps({
   url: {
     type: String,
     required: false,
-    default: "#"
   }
 })
 </script>
@@ -22,6 +21,10 @@ a {
   color: #D9D9D9;
   position: relative;
   width: fit-content;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 a::after {
