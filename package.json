@@ -6,7 +6,7 @@
     "lint": "vue-cli-service lint"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "dependencies": {
     "animejs": "^3.2.2",
