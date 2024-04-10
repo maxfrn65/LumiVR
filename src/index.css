@@ -9,12 +9,14 @@
         margin: 0;
     }
 }
-
 body {
     color: white;
     font-family: Inter, sans-serif;
 }
 
+#app{
+    width: fit-content;
+}
 h1 {
     font-size: 3rem;
     font-style: normal;

@@ -15,7 +15,7 @@ defineProps({
 </script>
 
 <template>
-  <h4><a class="focus:before:content-asterisk transition-all text-white/80 hover:text-white focus:text-white" :href="url">{{text}}</a></h4>
+  <h4><a class="focus:before:content-asterisk hover:before:content-asterisk transition-all text-white/80 hover:text-white focus:text-white" :href="url">{{text}}</a></h4>
 </template>
 
 <style scoped>

@@ -13,7 +13,7 @@ defineProps({
 </script>
 
 <template>
-  <a :href="url">{{text}}</a>
+  <a>{{text}}</a>
 </template>
 
 <style scoped>
