@@ -9,6 +9,7 @@
     "node": "20.x"
   },
   "dependencies": {
+    "animejs": "^3.2.2",
     "core-js": "^3.30.2",
     "daisyui": "^4.10.1",
     "dev": "^0.1.3",
