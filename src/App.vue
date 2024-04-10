@@ -486,6 +486,10 @@
                     <p>Show 3D sur GrandMA 3</p>
                   </div>
                 </div>
+                <div class="flex gap-5">
+                  <iframe class="rounded-2xl" width="560" height="315" src="https://www.youtube.com/embed/DGNkcBHSw_8?si=88F0NoK90S4vk26N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <iframe class="rounded-2xl" width="560" height="315" src="https://www.youtube.com/embed/WGfwPCAU778?si=iL23AraTTsbOS6eF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
               </div>
             </div>
           </div>
