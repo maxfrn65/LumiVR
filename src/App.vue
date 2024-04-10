@@ -486,9 +486,15 @@
                     <p>Show 3D sur GrandMA 3</p>
                   </div>
                 </div>
-                <div class="flex gap-5">
+                <div class="flex flex-col gap-5 pt-5">
                   <iframe class="rounded-2xl" width="560" height="315" src="https://www.youtube.com/embed/DGNkcBHSw_8?si=88F0NoK90S4vk26N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="p-5">
+                    <p>POC : Test de connexion entre Unity et GrandMa3</p>
+                  </div>
                   <iframe class="rounded-2xl" width="560" height="315" src="https://www.youtube.com/embed/WGfwPCAU778?si=iL23AraTTsbOS6eF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="p-5">
+                    <p>POC : Parsing des fichiers XML</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -504,7 +510,7 @@
                 Unity est l'outil de choix pour créer l'environnement virtuel qui donne vie aux spectacles lumière conçus avec Grandma3 dans une expérience de réalité virtuelle immersive.<br>
                 <br>Grâce à ses fonctionnalités avancées telles que la modélisation 3D, les outils d'animation, les effets visuels et la physique, Unity offre la possibilité de créer des environnements virtuels réalistes et captivants. La restitution de la scène dans Unity s'effectue grâce au parsing des fichiers XML exportés depuis Grandma3.<br>
                 <br>Ces fichiers contiennent une multitude d'informations, telles que la configuration des projecteurs, les presets des caractéristiques associées aux appareils, ainsi que les séquences du spectacle. Chaque projecteur est identifié par un ID unique (FID), ce qui permet de retrouver les presets et les séquences qui lui sont associés dans les autres fichiers.<br>
-                Une fois ces données récupérées, le processus consiste à créer dynamiquement chaque projecteur et à lui attribuer les informations correspondantes, permettant ainsi de les placer correctement dans la scène virtuelle.
+                Une fois ces données récupérées, le processus yarn consiste à créer dynamiquement chaque projecteur et à lui attribuer les informations correspondantes, permettant ainsi de les placer correctement dans la scène virtuelle.
               </p>
               <div class="flex justify-start items-center mt-8">
                 <img src="../src/assets/logo_GM3.jpeg" alt="logo_unity" height="30" width="57">

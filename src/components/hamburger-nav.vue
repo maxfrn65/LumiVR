@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed top-0  left-0 w-full z-10 flex flex-wrap items-center justify-between p-5 gap-5 bg-black border-2 border-white/10 rounded-2xl">
+  <nav class="fixed top-0  left-0 w-full z-10 flex flex-wrap items-center justify-between p-5 gap-5 bg-black border-2 border-white/10">
     <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
       <div class="w-full relative flex justify-between lg:w-auto  px-4">
         <img src="./logo.png" class="w-12" alt="Logo de LumiVR">
