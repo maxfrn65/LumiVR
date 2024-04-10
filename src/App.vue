@@ -544,7 +544,7 @@
         <section class="flex flex-col mt-40" id="contact">
           <div class="h-fit p-8 gap-5 bg-white/5 border-2 border-white/10 rounded-2xl">
             <div class="flex flex-col justify-center items-center">
-            <h1 class="max-xl:text-center">Envie d'en savoir plus ?</h1>
+            <h2 class="max-xl:text-center">Envie d'en savoir plus ?</h2>
               <ButtonM class="w-fit mt-8" text="Contactez-nous !" onclick="modal_contact.showModal()" />
               <dialog id="modal_contact" class="modal modal-bottom sm:modal-middle">
                 <div class="modal-box h-fit p-5 gap-5 bg-black border-2 border-white/10 rounded-2xl grid">
